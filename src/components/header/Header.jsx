@@ -16,7 +16,7 @@ const Header = ({scrolling}) => {
         <header className={headerClass}>
             <div className={[classes.header__container, "container"].join(' ')}>
                 <a href="#" className={classes.header__logo}>
-                    <img src="../../img/header/logo.png" alt={"Logo"}/>
+                    <img src="img/header/logo.png" alt={"Logo"}/>
                 </a>
             </div>
         </header>
