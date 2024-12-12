@@ -1,0 +1,34 @@
+.header{
+    position: fixed;
+    width: 100%;
+    padding: 25px 0;
+    background-color: transparent;
+    transition: all 0.8s ease;
+}
+
+.header__scrolling{
+    background-color: black;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo{
+    width: 60px;
+    height: 50px;
+    transition: transform 0.5s ease;
+}
+
+.header__logo:hover{
+    transform: scale(1.15);
+}
+
+.header__logo img{
+    width: 100%;
+    height: 100%;
+}

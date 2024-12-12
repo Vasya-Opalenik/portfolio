@@ -1,0 +1,17 @@
+/* about styles */
+.about{
+    margin-top: 40px;
+}
+
+.about__text{
+    text-align: start;
+}
+
+.about__title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about__boldText{
+    color: #000;
+    font-weight: 500;
+}

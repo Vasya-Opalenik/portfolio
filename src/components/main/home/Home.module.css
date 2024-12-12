@@ -1,0 +1,34 @@
+.home{
+    min-height: 100vh;
+    background: url("../../../../public/img/main/bg.jpg") no-repeat center center / cover;
+}
+
+.home__container{
+    padding-top: 25%;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    justify-content: space-between;
+}
+
+.home__content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+}
+
+.home__image{
+    max-width: 40%;
+}
+
+/* adaptive styles */
+@media (max-width: 768px){
+    .home__container{
+        flex-direction: column;
+    }
+    .home__image,
+    .home__content{
+        max-width: 100%;
+    }
+}

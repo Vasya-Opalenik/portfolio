@@ -1,0 +1,12 @@
+@import "global.css";
+
+.App {
+
+}
+.wraper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
